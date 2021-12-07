@@ -1,6 +1,6 @@
 name: base62x
 description: Dart implementation of the base62x codec
-version: 0.2.1
+version: 0.2.2
 homepage: https://gitee.com/yf-frontend/dart-base62x
 publish_to: https://pub.dev
 
