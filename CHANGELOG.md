@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Publish v0.2.2
+
+- fix example error
+
 ## Publish v0.2.1
 
 - update docs
