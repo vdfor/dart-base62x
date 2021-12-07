@@ -182,7 +182,6 @@ class Base62x {
       rtnAsctype = 1;
       var tmpi = 0;
       for (var i = 1; i < inputlen; i++) {
-        //tmpi = inputArr[i].charCodeAt();
         tmpi = inputArr[i];
         if (tmpi > ascmax ||
             (tmpi > 16 && tmpi < 21) //DC1-4
@@ -411,19 +410,15 @@ class Base62x {
       do {
         if (inputArr[i] == ixtag) {
           if (inputArr[i + 1] == ixtag) {
-            // op[m] = xtag;
             op.add(xtag);
             i++;
           } else {
             tmpc = String.fromCharCode(inputArr[++i]);
-            // op[m] = String.fromCharCode(ascrlist[tmpc]!);
             op.add(String.fromCharCode(ascrlist[tmpc]!));
           }
         } else {
-          // op[m] = String.fromCharCode(inputArr[i]);
           op.add(String.fromCharCode(inputArr[i]));
         }
-        // m++;
       } while (++i < inputlen);
       rtn = op.join('');
     } else {
