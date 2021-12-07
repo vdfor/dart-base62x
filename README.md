@@ -18,7 +18,7 @@ flutter pub add base62x
 import 'package:base62x/base62x.dart';
 
 final encodeStr = Base62x.encode('hello,world'); // helloxdworldx
-final decodeStr = Base62x.encode('helloxdworldx'); // hello,world
+final decodeStr = Base62x.decode('helloxdworldx'); // hello,world
 ```
 
 ## Api
