@@ -2,8 +2,9 @@
 
 [Base62x](https://ieeexplore.ieee.org/document/6020065/?arnumber=6020065) is an non-symbolic Base64 encoding scheme. It can be used safely in computer file systems, programming languages for data exchange, internet communication systems, etc, and it is an ideal substitute and successor of many variants of Base64 encoding scheme.
 
-
 This dart implementation was inspired by [wadelau's polyglot Base62x repository](https://github.com/wadelau/Base62x).
+
+[![Pub Package](https://img.shields.io/pub/v/base62x)](https://pub.dev/packages/base62x)
 
 ## Installation
 
