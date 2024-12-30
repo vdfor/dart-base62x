@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Publish v0.2.3
+
+- update homepage
+
 ## Publish v0.2.2
 
 - fix example error
